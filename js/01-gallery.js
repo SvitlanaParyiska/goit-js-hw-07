@@ -31,7 +31,6 @@ function modalClose(event) {
 
 function showLargeImage(event) {
   event.preventDefault();
-  event.preventDefault();
   if (event.target.classList.contains("gallery__image")) {
     instance = basicLightbox.create(`
     <div class="modal">

@@ -15,11 +15,6 @@ const imageListArr = galleryItems
   .join("");
 
 list.insertAdjacentHTML("beforeend", imageListArr);
-list.addEventListener("click", stopDownload);
-
-function stopDownload(event) {
-  event.preventDefault();
-}
 
 var lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
